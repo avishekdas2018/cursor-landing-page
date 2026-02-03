@@ -20,6 +20,16 @@ body {
     background-color: #14120B;
 }
 
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
 /* .hero {
     width: 1200px;
 } */
@@ -42,7 +52,7 @@ body {
     padding: 5.6px 15px;
     font-family: CursorGothic;
     font-size: 14px;
-    z-index: 1;
+    background-color: #14120B;
 
 }
 
@@ -121,14 +131,14 @@ body {
 }
 
 .main-content {
-    width: 68%;
+    width: 70%;
     margin: 0 auto;
     color: #edecec;
     font-family: CursorGothic;
 }
 
 .hero-section {
-    padding: 80px 0px 60px 0px;
+    padding: 0px 0px 60px 0px;
 }
 
 .hero-heading {
@@ -142,6 +152,10 @@ body {
     border-radius: 50px;
     cursor: pointer;
     box-shadow: none;
+}
+
+.hero-section-container {
+    padding: 112px 20px 67.2px;
 }
 
 .hero-bg-img {
@@ -161,4 +175,46 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+
+.brand-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px 33.6px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand-section p {
+    margin-bottom: 20px;
+}
+
+.brand-showcase {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 1fr);
+    
+    gap: 10px;
+}
+
+.brand-card {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #1B1913; 
+    
+}
+.brand-card img {
+    width: 100px;
+    object-fit: contain;
+    
 }
