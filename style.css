@@ -1,0 +1,104 @@
+* ::before,
+* ::after,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: CursorGothic;
+    src: url(./fonts/CursorGothic_Regular-s.p.a361088d.woff2)format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    width: 86vw;
+    margin: 0 auto;
+    background-color: #14120B;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5.6px 15px;
+    color: #edecec;
+    font-family: CursorGothic;
+    font-size: 14px;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+    margin: 6px;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    padding: 5.6px 14px;
+}
+
+.navbar ul li:hover {
+    color: #9DB5B4;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center ;
+}
+
+.signin-btn {
+    padding: 5.6px 10.5px 5.88px;
+    background-color: #00000000;
+    border: 1px solid #2b2a2a;
+    box-shadow: none;
+    border-radius: 50px;
+    color: #edecec ;
+    font-size: 14px;
+    font-family: CursorGothic;
+    cursor: pointer;
+}
+.signin-btn:hover {
+    background-color: #292828;
+    transition: all 0.3s ease;
+}
+.download-btn {
+    padding: 5.6px 10.5px 5.88px;
+    border: 1px solid #adadad;
+    box-shadow: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: CursorGothic;
+    cursor: pointer;
+}
+.download-btn:hover {
+    background-color: #d8d8d8;
+    transition: all 0.3s ease;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-cube {
+    width: 18px;
+    height: auto;
+}
+
+
+.logo-wordmark {
+    width: 70px;
+    height: auto;
+}
+
