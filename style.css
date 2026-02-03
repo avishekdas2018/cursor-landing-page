@@ -138,6 +138,8 @@ header {
 }
 
 .hero-section {
+    width: 100%;
+    margin: 0 auto;
     padding: 0px 0px 60px 0px;
 }
 
@@ -216,5 +218,79 @@ header {
 .brand-card img {
     width: 100px;
     object-fit: contain;
+}
+
+.features-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px 60px;
+
+}
+
+.features-container {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    width: 95% ;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    gap: 14px;
+    background-color: #1B1913;
+    border-radius: 6px;
+}
+
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 16px 0px 20px;
     
+}
+
+.feature-card h3 {
+    font-size: 22px;
+    margin: 0px;
+    line-height: 1.4;
+    color: #edecec;
+    font-weight: 300;
+}
+.feature-card p {
+    margin: 0px 0px 22px 0px;
+    font-size: 22px;
+    color: #9a9996;
+    font-weight: 300;
+}
+
+.feature-card a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f54e00;
+
+}
+.feature-card a:hover {
+    color: #db490a;
+}
+
+.feature-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
+.feature-card-image {
+    position: relative;
+}
+
+.code-editor-feture-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
 }
