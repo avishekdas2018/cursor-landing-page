@@ -40,8 +40,15 @@ header {
     display: inline-block;
 } */
 
+.navbar-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     position: sticky;
     top: 0;
@@ -607,3 +614,20 @@ header {
     color: #db490a;
 }
 
+
+.finalcta-section {
+    margin: 0 auto;
+    padding: 80px 20px 60px;
+}
+
+.finalcta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finalcta-container h1 {
+    margin-bottom: 20px;
+    font-size: 72px;
+    font-weight: 300;
+}
