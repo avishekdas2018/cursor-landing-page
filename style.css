@@ -462,7 +462,6 @@ header {
 }
 
 .changelog-container {
-  
     padding: 67.2px 20px;
 }
 
@@ -505,4 +504,28 @@ header {
 }
 .changelog-container a:hover {
     color: #db490a;
+}
+
+
+
+.team-section-container {
+    padding: 0px 20px 70px 20px;
+}
+
+
+.team-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 50px 0px;
+}
+
+.team-heading {
+    font-size: 36px;
+}
+
+.team-bg-img {
+    width: 1300px;
+    height: 750px;
+    object-fit: cover;
+    border-radius: 4px;
 }
