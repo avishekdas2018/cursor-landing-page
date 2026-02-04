@@ -131,10 +131,15 @@ header {
 }
 
 .main-content {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     color: #edecec;
     font-family: CursorGothic;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .hero-section {
@@ -493,7 +498,6 @@ header {
     font-size: 16px;
     color: #edecec;
     margin: 20px 0px 0px;
-
 }
 
 
@@ -529,3 +533,77 @@ header {
     object-fit: cover;
     border-radius: 4px;
 }
+
+.highlight-section {
+    background-color: #1B1913;
+    /* width: 100%; */
+    margin: 67px 0px 0px;
+    padding: 89.6px 20px;
+}
+
+
+.highlight-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.highlight-card {
+    display: flex;
+    width: 100%;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    padding: 13px 17.5px 17.5px 17.5px;
+    background-color: #201E18;
+    border-radius: 4px;
+}
+
+#highlight {
+    position: relative;
+}
+
+#highlight-span {
+    position: absolute;
+    left: 300px;
+}
+
+
+.highlight-card-item h3 {
+    font-size: 16px;
+    margin: 0px;
+    line-height: 1.6;
+    color: #edecec;
+    font-weight: 300;
+}
+.highlight-card:hover {
+    cursor: pointer;
+    background-color: #26241E;
+    transition: all ease;
+}
+
+.highlight-card-item p {
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
+    color: #9a9996;
+    font-weight: 400;
+}
+
+.highlight-card-item span {
+    color: #9a9996;
+}
+
+.highlight-container a {
+    margin-top: 16px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f54e00;
+}
+
+.highlight-container a:hover {
+    color: #db490a;
+}
+
