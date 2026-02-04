@@ -8,37 +8,25 @@ body {
 
 @font-face {
     font-family: CursorGothic;
-    src: url(./fonts/CursorGothic_Regular-s.p.a361088d.woff2)format("woff2");
+    src: url(./fonts/CursorGothic_Regular-s.p.a361088d.woff2) format("woff2");
     font-display: swap;
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 body {
-    /* width: 86vw;
-    margin: 0 auto; */
-    background-color: #14120B;
+    background-color: #14120b;
 }
 
 header {
     width: 100%;
     margin: 0 auto;
-    display: inline-block;
+    /* display: inline-block; */
     position: fixed;
     top: 0;
     left: 0;
     z-index: 50;
 }
-
-/* .hero {
-    width: 1200px;
-} */
-
-/* section {
-    width: 100%;
-    margin: 0 auto;
-    display: inline-block;
-} */
 
 .navbar-container {
     width: 100%;
@@ -59,8 +47,7 @@ header {
     padding: 5.6px 15px;
     font-family: CursorGothic;
     font-size: 14px;
-    background-color: #14120B;
-
+    background-color: #14120b;
 }
 
 .navbar ul {
@@ -68,7 +55,6 @@ header {
     list-style: none;
     gap: 2px;
     margin: 6px 0px;
-
 }
 
 .navbar ul li {
@@ -76,8 +62,13 @@ header {
     padding: 5.6px 14px;
 }
 
+.navbar ul li a {
+    text-decoration: none;
+    color: #edecec;
+}
+
 .navbar ul li:hover {
-    color: #9DB5B4;
+    color: #9db5b4;
 }
 
 .nav-btn {
@@ -119,7 +110,6 @@ header {
     transition: all 0.3s ease;
 }
 
-
 .logo {
     display: flex;
     align-items: center;
@@ -130,7 +120,6 @@ header {
     width: 18px;
     height: auto;
 }
-
 
 .logo-wordmark {
     width: 70px;
@@ -177,6 +166,7 @@ header {
     height: 700px;
     object-fit: cover;
     border-radius: 4px;
+    opacity: 0.9;
 }
 
 .hero-image-group {
@@ -188,9 +178,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
-
 
 .brand-section {
     width: 100%;
@@ -223,8 +211,7 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    background-color: #1B1913;
-
+    background-color: #1b1913;
 }
 
 .brand-card img {
@@ -236,7 +223,6 @@ header {
     width: 100%;
     margin: 0 auto;
     padding: 0px 20px 60px;
-
 }
 
 .features-container {
@@ -250,17 +236,15 @@ header {
     align-items: center;
     padding: 18px;
     gap: 14px;
-    background-color: #1B1913;
+    background-color: #1b1913;
     border-radius: 6px;
 }
-
 
 .feature-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0px 16px 0px 20px;
-
 }
 
 .feature-card h3 {
@@ -282,7 +266,6 @@ header {
     font-size: 16px;
     text-decoration: none;
     color: #f54e00;
-
 }
 
 .feature-card a:hover {
@@ -309,7 +292,6 @@ header {
     border-radius: 6px;
 }
 
-
 .testimonial-section {
     width: 100%;
     margin: 0 auto;
@@ -318,7 +300,6 @@ header {
 }
 
 .testimonial-container {
-
     /* justify-content: space-between;
     align-items: center; */
     width: 100%;
@@ -326,8 +307,6 @@ header {
     margin-top: 60px;
 
     /* padding: 18px; */
-
-
 }
 
 .testimonial-container h2 {
@@ -341,7 +320,6 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
     margin-top: 60px;
-
 }
 
 .card {
@@ -351,10 +329,9 @@ header {
     align-items: start;
 
     padding: 0px 17.5px 17.5px;
-    background-color: #1B1913;
-    border-radius: 4px
+    background-color: #1b1913;
+    border-radius: 4px;
 }
-
 
 .bio {
     display: flex;
@@ -367,7 +344,6 @@ header {
 .bio span {
     font-size: 14px;
     line-height: 1.5;
-
 }
 
 .customer-name {
@@ -377,7 +353,6 @@ header {
 .customer-role {
     color: #9a9996;
 }
-
 
 .bio img {
     width: 40px;
@@ -392,13 +367,11 @@ header {
     padding: 80px 0px 60px;
 }
 
-
 .usecase-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
 }
-
 
 .usecase-card-item {
     display: flex;
@@ -406,16 +379,15 @@ header {
     justify-content: center;
     align-items: start;
     padding: 15.9px 17.5px 17.5px;
-    background-color: #1B1913;
+    background-color: #1b1913;
     border-radius: 4px;
 }
 
 .usecase-card-item:hover {
     cursor: pointer;
-    background-color: #1D1B15;
+    background-color: #1d1b15;
     transition: all ease;
 }
-
 
 .usecase-card-item img {
     width: 100%;
@@ -445,8 +417,6 @@ header {
     font-size: 16px;
     text-decoration: none;
     color: #f54e00;
-
-
 }
 
 .usecase-card-item a:hover {
@@ -463,14 +433,11 @@ header {
     object-fit: cover;
 }
 
-
 .changelog-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
     margin-bottom: 22.4px;
-    /* justify-content: center; */
-
 }
 
 .changelog-container {
@@ -478,15 +445,16 @@ header {
 }
 
 .changelog-card-item {
-    background-color: #1B1913;
+    background-color: #1b1913;
     padding: 15.9px 17.5px 20px;
+    border-radius: 4px;
 }
 
 .changelog-card-item:hover {
     cursor: pointer;
-    background-color: #201E18;
+    background-color: #201e18;
     transition: all ease;
-} 
+}
 
 .version {
     font-size: 14px;
@@ -501,28 +469,26 @@ header {
     font-size: 16px;
     color: #9a9996;
 }
+
 .changelog-card-item p {
     font-size: 16px;
     color: #edecec;
     margin: 20px 0px 0px;
 }
 
-
 .changelog-container a {
     font-size: 16px;
     text-decoration: none;
     color: #f54e00;
 }
+
 .changelog-container a:hover {
     color: #db490a;
 }
 
-
-
 .team-section-container {
     padding: 0px 20px 70px 20px;
 }
-
 
 .team-section {
     width: 100%;
@@ -542,12 +508,11 @@ header {
 }
 
 .highlight-section {
-    background-color: #1B1913;
+    background-color: #1b1913;
     /* width: 100%; */
     margin: 67px 0px 0px;
     padding: 89.6px 20px;
 }
-
 
 .highlight-container {
     display: grid;
@@ -565,7 +530,7 @@ header {
     /* flex-direction: row; */
     /* justify-content: center; */
     padding: 13px 17.5px 17.5px 17.5px;
-    background-color: #201E18;
+    background-color: #201e18;
     border-radius: 4px;
 }
 
@@ -578,7 +543,6 @@ header {
     left: 300px;
 }
 
-
 .highlight-card-item h3 {
     font-size: 16px;
     margin: 0px;
@@ -586,9 +550,10 @@ header {
     color: #edecec;
     font-weight: 300;
 }
+
 .highlight-card:hover {
     cursor: pointer;
-    background-color: #26241E;
+    background-color: #26241e;
     transition: all ease;
 }
 
@@ -614,7 +579,6 @@ header {
     color: #db490a;
 }
 
-
 .finalcta-section {
     margin: 0 auto;
     padding: 80px 20px 60px;
@@ -626,8 +590,76 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .finalcta-container h1 {
     margin-bottom: 20px;
     font-size: 72px;
     font-weight: 300;
+}
+
+.footer-section {
+    margin: 0 auto;
+    margin: 67px 0px 0px;
+    padding: 50.6px 20px;
+    background-color: #1b1913;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-container-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container-item h3 {
+    font-size: 14px;
+
+    color: #9a9996;
+    margin: 0px;
+}
+
+.footer-container-item ul {
+    font-size: 14px;
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.footer-container-item ul li {
+    margin-bottom: 8px;
+    color: #edecec;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+
+.footer-note {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.footer-note-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #9a9996;
+}
+
+#soc:hover {
+    color: #edecec;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 2px;
+    box-shadow: none;
 }
