@@ -200,8 +200,8 @@ header {
     width: 100%;
     margin: 0 auto;
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
     gap: 10px;
 }
 
@@ -211,9 +211,10 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    background-color: #1B1913; 
-    
+    background-color: #1B1913;
+
 }
+
 .brand-card img {
     width: 100px;
     object-fit: contain;
@@ -230,7 +231,7 @@ header {
     display: flex;
     /* justify-content: space-between;
     align-items: center; */
-    width: 95% ;
+    width: 95%;
     margin: 0 auto;
     margin-top: 60px;
     justify-content: space-between;
@@ -247,7 +248,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding: 0px 16px 0px 20px;
-    
+
 }
 
 .feature-card h3 {
@@ -257,6 +258,7 @@ header {
     color: #edecec;
     font-weight: 300;
 }
+
 .feature-card p {
     margin: 0px 0px 22px 0px;
     font-size: 22px;
@@ -270,6 +272,7 @@ header {
     color: #f54e00;
 
 }
+
 .feature-card a:hover {
     color: #db490a;
 }
@@ -303,15 +306,15 @@ header {
 }
 
 .testimonial-container {
-    
+
     /* justify-content: space-between;
     align-items: center; */
-    width: 100% ;
+    width: 100%;
     margin: 0 auto;
     margin-top: 60px;
-    
+
     /* padding: 18px; */
-    
+
 
 }
 
@@ -326,7 +329,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
     margin-top: 60px;
-    
+
 }
 
 .card {
@@ -334,7 +337,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    
+
     padding: 0px 17.5px 17.5px;
     background-color: #1B1913;
     border-radius: 4px
@@ -352,11 +355,11 @@ header {
 .bio span {
     font-size: 14px;
     line-height: 1.5;
-    
+
 }
 
 .customer-name {
-    color: #edecec  ;
+    color: #edecec;
 }
 
 .customer-role {
@@ -395,6 +398,12 @@ header {
     border-radius: 4px;
 }
 
+.usecase-card-item:hover {
+    cursor: pointer;
+    background-color: #1D1B15;
+    transition: all ease;
+}
+
 
 .usecase-card-item img {
     width: 100%;
@@ -412,6 +421,7 @@ header {
     color: #edecec;
     font-weight: 300;
 }
+
 .usecase-card-item p {
     margin: 0px 0px 20px 0px;
     font-size: 16px;
@@ -423,9 +433,10 @@ header {
     font-size: 16px;
     text-decoration: none;
     color: #f54e00;
-    
+
 
 }
+
 .usecase-card-item a:hover {
     color: #db490a;
 }
@@ -435,8 +446,63 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
     width: 60px;
     height: 60px;
     object-fit: cover;
+}
+
+
+.changelog-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 22.4px;
+    /* justify-content: center; */
+
+}
+
+.changelog-container {
+  
+    padding: 67.2px 20px;
+}
+
+.changelog-card-item {
+    background-color: #1B1913;
+    padding: 15.9px 17.5px 20px;
+}
+
+.changelog-card-item:hover {
+    cursor: pointer;
+    background-color: #201E18;
+    transition: all ease;
+} 
+
+.version {
+    font-size: 14px;
+    color: #9a9996;
+    padding: 3.92px 9.1px 4.06px;
+    border: 1px solid #9a9996;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.version-date {
+    font-size: 16px;
+    color: #9a9996;
+}
+.changelog-card-item p {
+    font-size: 16px;
+    color: #edecec;
+    margin: 20px 0px 0px;
+
+}
+
+
+.changelog-container a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f54e00;
+}
+.changelog-container a:hover {
+    color: #db490a;
 }
